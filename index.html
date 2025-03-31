@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>QuizMaster - Testez vos connaissances</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">TriPykxQuiz</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Chercher un quiz">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="categories-btn">
+                <button><i class="fas fa-th-large"></i> Catégories</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Avec TriPykxQuiz, chaque jour est l'occasion d'enrichir ta culture générale !</h1>
+                <p>Mets à l'épreuve tes connaissances et découvre de nouveaux sujets grâce à nos quiz gratuits et amusants. Que tu sois passionné·e d’histoire, de géographie, de musique ou de cinéma, tu trouveras le quiz idéal pour toi !</p>
+                <button id="start_button" class="cta-button">Commencer <i class="fas fa-arrow-right"></i></button>
+            </div>
+            <div class="hero-image">
+                <img src="quiz_image.png" alt="Description de l'image">
+            </div>
+        </section>
+
+        <section class="quiz-container hide" id="question_container">
+            <div id="question"></div>
+            <div id="answer-buttons" class="button-grid">
+                
+            </div>
+            <div class="controls">
+                <button id="next_button" class="next-button hide">Suivant</button>
+            </div>
+            <div class="score-display">
+                Score: <span id="right-answers">0</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 TriPykxQuiz - Tous droits réservés</p>
+            <button class="cookie-btn">Paramètres cookies</button>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
