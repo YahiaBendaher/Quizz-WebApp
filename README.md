@@ -1,6 +1,6 @@
 # 🧠 TriPykxQuiz – Application de quiz interactif
 
-![Aperçu du quiz](./quizz_image.png)
+![Aperçu du quiz](./assets/preview.png)
 
 ## 📝 Petite description
 
